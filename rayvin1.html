@@ -1,21 +1,118 @@
-
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>All About Myself</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8f5;
+            color: #333;
+        }
 
+        header {
+            background-color: #00804b;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #00663d;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        figure {
+            margin: 15px 0;
+            text-align: center;
+        }
+
+        figure img {
+            width: 150px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        figcaption {
+            margin-top: 5px;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #00804b;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 40px;
+        }
+
+        a {
+            color: #007bff;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        p {
+            line-height: 1.5;
+        }
+
+        hr {
+            border: none;
+            height: 1px;
+            background-color: #ccc;
+            margin: 30px 0;
+        }
+    </style>
 </head>
 <body> 
-    
-   
+
     <header id="top">
-        <h1 style="text-align: center; color: rgb(0, 128, 75);">All About Myself</h1>
+        <h1>All About Myself</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#about">About Myself</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="#hobbies">Hobbies</a></li>
                 <li><a href="#favorites">Favorites</a></li>
                 <li><a href="#friends">Friends</a></li>
@@ -23,107 +120,92 @@
         </nav>
     </header>
 
-    <hr>
-
     <main>
-        <article id="about">
-            <section id="Myself"> 
-                <h2> About Myself</h2>
-                <figcaption style="font-weight: bold;">I am Rayvin Jones G.dela Peña I live In Greenvalley Nasipit Agusan del Norte. In my elementary I studied at Punta Elementary School. In my junior high I studied in Nasipit National High School and In my senior high I studied at Nasipit National High School</figcaption>
-                <figure>
-                    <img src="200000.jpg" alt="Store Logo" height="200">
-                    <figcaption style="font-weight: bold;">
-                     
+        <section id="about">
+            <h2>About Myself</h2>
+            <figure>
+                <img src="200000.jpg" alt="Rayvin">
+                <figcaption>
+                    I am Rayvin Jones G. dela Peña. I live in Greenvalley, Nasipit, Agusan del Norte. 
+                    I studied at Punta Elementary School and then continued at Nasipit National High School for both junior and senior high school.
+                </figcaption>
+            </figure>
+        </section>
 
-            </section>
-
-            <section id="owner">
-                <h2>My life story</h2>
-                <figure>
-                   
-                       <p style="font-size: larger;"> IN MY CHILDHOOD, TEENAGE, ADULTHOOD</p>
-                    </figcaption>
-
-             <figcaption style="font-weight: bold;"> When i was a child i dream a simple house and simple life. I grew up in a mid wealth family and they give me a life what i want. In my middle age we play together with  my friends and the name of friends Rodel, Raffe, Robert the monkey and David the darkest neck. Whe i was in my teenage i started to go outside not got home in the right time and always at the outside. Now in my adulthood i started to get serious i life and i need to study well to make my parents proud.  </figcaption>
-                       
-               
-            </section>
-        </article>
+        <section>
+            <h2>My Life Story</h2>
+            <p><strong>IN MY CHILDHOOD, TEENAGE, AND ADULTHOOD</strong></p>
+            <p>
+                When I was a child, I dreamed of a simple house and peaceful life. My family gave me the life I needed. 
+                I spent my middle years playing with friends: Rodel, Raffe, Robert (the monkey), and David (the darkest neck).
+                In my teenage years, I started exploring the outside world and got home late often. 
+                Now, in adulthood, I focus more on studies to make my parents proud.
+            </p>
+        </section>
 
         <hr>
 
-        <article id="products">
-            <section>
-                <h2>Hobbies</h2>
-                <figure>
-                
-                    <img src="2002.jpg" alt="Product 1" height="200">
-                    <figcaption style="font-weight: bold;"> Indoor </style ></figcaption>
-
-                    <img src="0909.jpg" alt="product1" height="100">
-                    <figcaption style=" font-weight: bold;">  Outdoor</figcaption>
-
-
-                   
-                </figure>
-                  
-            </section>
-
-            <section>
-                <h2>Favorites</h2>
-                <figure>
-                    <img src="000.jpg" alt="Product 1" height="100">
-                    <figcaption style="font-weight: bold;">Adobo </figcaption>
-                    <p> 
-            </section>
-            <img src="12321.jpg" alt=" product1" height=" 200">
-            <figcaption style = "
-            font-weight: bold;"> Skusta Clee</figcaption>
-               <img src="blue.jpg" alt="product1" height=" 200">
-               <figcaption style="font-weight: bold;"> Color blue </figcaption>
-
-
-
-            <section>
-                <h2>Friends</h2>
-                <figure>
-                    <img src="000000.jpg" alt="Product 1" height=" 200">
-                    <figcaption style="font-weight: bold;">Close friends</figcaption >
-                    
-            </section>
-        </article>
-                    <img src="1234567.jpg" alt="product 1 " height=" 100">
-                    <figcaption style=" font-weight: bold;"> College Friends</figcaption>
-                    
+        <section id="hobbies">
+            <h2>Hobbies</h2>
+            <figure>
+                <img src="2002.jpg" alt="Indoor Hobby">
+                <figcaption>Indoor Activities</figcaption>
+            </figure>
+            <figure>
+                <img src="0909.jpg" alt="Outdoor Hobby">
+                <figcaption>Outdoor Activities</figcaption>
+            </figure>
+        </section>
 
         <hr>
 
-        <article id="contact">
-            <section>
-                <h2>Contact Us</h2>
-                <p>Reach us out wiht these following contact deatails...</p>
-                <ul>
-                    <li>
-                        Landline: 123-4567
-                    </li>
-                    <li>
-                        Phone Number: 09123456789
-                    </li>
-                    <li>
-                        Email: <a href="rayvinjones123@gmail.com">rayvinjones123</a>
-                    </li>
-                </ul>
-            </section>
-        </article>
+        <section id="favorites">
+            <h2>Favorites</h2>
+            <figure>
+                <img src="000.jpg" alt="Adobo">
+                <figcaption>Adobo</figcaption>
+            </figure>
+            <figure>
+                <img src="12321.jpg" alt="Skusta Clee">
+                <figcaption>Skusta Clee</figcaption>
+            </figure>
+            <figure>
+                <img src="blue.jpg" alt="Color Blue">
+                <figcaption>Color Blue</figcaption>
+            </figure>
+        </section>
 
+        <hr>
+
+        <section id="friends">
+            <h2>Friends</h2>
+            <figure>
+                <img src="000000.jpg" alt="Close Friends">
+                <figcaption>Close Friends</figcaption>
+            </figure>
+            <figure>
+                <img src="1234567.jpg" alt="College Friends">
+                <figcaption>College Friends</figcaption>
+            </figure>
+        </section>
+
+        <hr>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Reach out to me using the contact details below:</p>
+            <ul>
+                <li>Landline: 123-4567</li>
+                <li>Phone Number: 09123456789</li>
+                <li>Email: <a href="mailto:rayvinjones123@gmail.com">rayvinjones123@gmail.com</a></li>
+            </ul>
+        </section>
     </main>
 
-    <hr>
-
-    <footer style="text-align: center;">
-        <p  style="font-weight: bold;">All Rights Reserved &copy; rayvinjones123 /p>
-        <a href="#top" style="text-align: center;">Back to Top</a>
+    <footer>
+        <p><strong>All Rights Reserved &copy; rayvinjones123</strong></p>
+        <a href="#top" style="color: white;">Back to Top</a>
     </footer>
+
 </body>
 </html>
-    
